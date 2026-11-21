@@ -191,3 +191,56 @@ h1, h2, h3 {
     align-items: stretch;
   }
 }
+.interests,
+.contact {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #c99024;
+}
+
+.interests h2,
+.contact h2 {
+  margin-top: 0;
+  color: #173f35;
+  font-size: 1.5rem;
+}
+
+.interests ul {
+  padding-left: 1.5rem;
+}
+
+.interests li + li {
+  margin-top: 0.5rem;
+}
+
+.contact a {
+  color: #173f35;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+
+.contact a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.contact a:focus-visible {
+  outline: 3px solid #173f35;
+  outline-offset: 4px;
+}
+/* About content now shares the main container's spacing. */
+.about .bio {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.interests h3 {
+  margin-top: 0;
+  color: #173f35;
+  font-size: 1.35rem;
+}
+
+.projects {
+  margin-top: 3rem;
+}
